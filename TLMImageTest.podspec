@@ -35,9 +35,7 @@ TODO: Add long description of the pod here.
   #s.resources = 'TLMImageTest/Assets/images123.bundle', 'TLMImageTest/Assets/*.png'
   #'TLMImageTest1' => ['TLMImageTest/Assets/podImages.bundle'],
    s.resource_bundles = {
-     'TLMImageTest' => ['TLMImageTest/Assets/ImageTest.xcassets'],
-     'TLMImageTestBundle' => ['TLMImageTest/Assets/images123.bundle'],
-     'TLMImageTestPng' => ['TLMImageTest/Assets/*.png']
+     'TLMImageTest' => ['TLMImageTest/Assets/ImageTest.xcassets']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
