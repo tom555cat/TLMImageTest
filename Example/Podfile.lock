@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TLMImageTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TLMImageTest (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TLMImageTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TLMImageTest: 62bfe2fdfad708771210f95d39df41d2c90b112e
+
+PODFILE CHECKSUM: 939444ac1a3a515b3bba51318bf09fa0b9a7f9c2
+
+COCOAPODS: 1.6.1

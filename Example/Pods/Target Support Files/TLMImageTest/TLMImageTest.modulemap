@@ -1,0 +1,6 @@
+framework module TLMImageTest {
+  umbrella header "TLMImageTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

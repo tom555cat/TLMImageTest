@@ -32,9 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TLMImageTest/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TLMImageTest' => ['TLMImageTest/Assets/*.png']
-  # }
+  #s.resources = 'TLMImageTest/Assets/images123.bundle', 'TLMImageTest/Assets/*.png'
+  #'TLMImageTest1' => ['TLMImageTest/Assets/podImages.bundle'],
+   s.resource_bundles = {
+     'TLMImageTest' => ['TLMImageTest/Assets/ImageTest.xcassets'],
+     'TLMImageTestBundle' => ['TLMImageTest/Assets/images123.bundle'],
+     'TLMImageTestPng' => ['TLMImageTest/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

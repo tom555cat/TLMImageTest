@@ -1,0 +1,28 @@
+{
+  "name": "TLMImageTest",
+  "version": "0.1.0",
+  "summary": "A short description of TLMImageTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tongleiming1989@sina.com/TLMImageTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tongleiming1989@sina.com": "tongleiming@daling.com"
+  },
+  "source": {
+    "git": "https://github.com/tongleiming1989@sina.com/TLMImageTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TLMImageTest/Classes/**/*",
+  "resources": "TLMImageTest/Assets/ImageTest.xcassets",
+  "resource_bundles": {
+    "TLMImageTest1": [
+      "TLMImageTest/Assets/podImages.bundle"
+    ]
+  }
+}
